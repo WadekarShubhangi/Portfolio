@@ -1,3 +1,13 @@
 header{
     background-color: #121212;
 }
+.navbar-brand i{
+color: #196a27;
+}
+.nav-link {
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: #196a27;
+    font-size: 22px;
+}

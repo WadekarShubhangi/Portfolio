@@ -3,7 +3,7 @@ import './Header.css'
 const Header = () => {
   return (
     <>
-      <header className="py-1 border-bottom sticky-top z-3" data-bs-theme="dark">
+      <header className="py-1 border-bottom  sticky-top z-3" data-bs-theme="dark">
         <div className="container">
           <nav className="navbar navbar-expand-lg">
             <a className="navbar-brand fw-semibold fs-3" href="index.html">
@@ -22,11 +22,11 @@ const Header = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <div className="navbar-nav ms-auto">
-                <a className="nav-link fw-normal fs-5" href="#home">Home</a>
-                <a className="nav-link fw-normal fs-5" href="#projects">Projects</a>
-                <a className="nav-link fw-normal fs-5" href="#skills">Skills</a>
-                <a className="nav-link fw-normal fs-5" href="#education">Education</a>
-                <a className="nav-link fw-normal fs-5" href="#contact">Contact</a>
+                <a className="nav-link fw-normal" href="#home">Home</a>
+                <a className="nav-link fw-normal" href="#projects">Projects</a>
+                <a className="nav-link fw-normal" href="#skills">Skills</a>
+                <a className="nav-link fw-normal" href="#education">Education</a>
+                <a className="nav-link fw-normal" href="#contact">Contact</a>
               </div>
             </div>
           </nav>

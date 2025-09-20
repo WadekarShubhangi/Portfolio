@@ -14,7 +14,6 @@ function App() {
     <div className="">
       <Header />
       <main className="container pt-5">
-        {/* Home */}
         <section className="my-5" id="home">
           <div className="row align-items-center justify-content-center">
             <div className="col-md-8 col-12 order-2 order-md-1">
@@ -34,7 +33,7 @@ function App() {
                     Contact me
                   </a>
                   <a
-                    href="/resume.pdf"
+                    href="/https://drive.google.com/file/d/1R0qMKbioStHTMUrmO6Xzuink4Z5lB-dJ/view?usp=sharing"
                     target="_blank"
                     className="btn btn-outline-success btn-lg"
                   >
