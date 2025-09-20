@@ -1,0 +1,53 @@
+body {
+  background-color: #121212;
+  color: #a6a9ac;
+  margin: 0;
+  padding: 0;
+}
+
+.homeImage img {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+hr {
+  border: none;
+  height: 5px;
+  width: 100px;
+  background-color: #198754;
+}
+.user-heading{
+  font-size: 44px;
+  color: #f0f8ff;
+}
+.text-color{
+  color: #a6a9ac;
+}
+
+.card{
+  background-color: #0a0a0a;
+  color: #f0f8ff;
+}
+.title{
+  font-size: 40px;
+  color: #f0f8ff;
+}
+.description-text{
+  font-size: 22px;
+}
+
+.project-img img {
+  height: 220px;  
+  object-fit: cover;
+  width: 100%;
+}
+
+@media (min-width: 769px) {
+  .user-heading{
+    font-size: 64px;
+  }
+  .title{
+  font-size: 52px;
+}
+}
