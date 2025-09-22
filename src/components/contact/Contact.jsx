@@ -8,7 +8,7 @@ const Contact = () => {
         </p>
         <hr />
         <div className="row d-flex flex-wrap">
-          <div className="col-md-6 col-6">
+          <div className="col-sm-6 col-6 mb-3">
             <div className="card my-3 p-3 h-100 w-100">
               <h5 className="card-title">
                 <i className="bi bi-envelope-fill text-success"></i> Email
@@ -23,7 +23,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-6 col-6">
+          <div className="col-sm-6 col-6 mb-3">
             <div className="card my-3 p-3 h-100 w-100">
               <h5 className="card-title">
                 <i className="bi bi-linkedin text-success"></i> LinkedIn
@@ -39,7 +39,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-6 col-6">
+          <div className="col-sm-6 col-6 mb-3">
             <div className="card my-3 p-3 h-100 w-100">
               <h5 className="card-title">
                 <i className="bi bi-github text-success"></i> GitHub
@@ -56,7 +56,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-6 col-6 ">
+          <div className="col-sm-6 col-6 mb-3">
             <div className="card my-3 p-3 h-100 w-100">
               <h5 className="card-title">
                 <i className="bi bi-telephone-fill text-success"></i> Contact No.

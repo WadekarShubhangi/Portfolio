@@ -4,11 +4,13 @@ body {
   margin: 0;
   padding: 0;
 }
-
+section{
+  scroll-margin-top: 77px;
+}
 .homeImage img {
-  max-height: 300px;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
 }
 
 hr {

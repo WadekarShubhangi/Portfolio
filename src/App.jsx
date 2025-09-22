@@ -1,6 +1,4 @@
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg',
-import profile from "./assets/profile.jpg";
+import picture from "./assets/picture.jpg";
 import "./App.css";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
@@ -33,8 +31,8 @@ function App() {
                     Contact me
                   </a>
                   <a
-                    href="/https://drive.google.com/file/d/1R0qMKbioStHTMUrmO6Xzuink4Z5lB-dJ/view?usp=sharing"
-                    target="_blank"
+                    href="https://drive.google.com/uc?export=download&id=1R0qMKbioStHTMUrmO6Xzuink4Z5lB-dJ"
+                    download
                     className="btn btn-outline-success btn-lg"
                   >
                     Resume
@@ -45,7 +43,7 @@ function App() {
             <div className="col-md-4 col-12 order-1 order-md-2">
               <div className="homeImage text-center">
                 <img
-                  src={profile}
+                  src={picture}
                   alt="My Photo"
                   className="img-fluid img-thumbnail"
                 />
@@ -57,7 +55,7 @@ function App() {
         <Project />
         <Skills />
         <ExperienceAndEdu />
-        <Contact/>
+        <Contact />
       </main>
       <Footer />
     </div>
